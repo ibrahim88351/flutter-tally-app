@@ -8,9 +8,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Tally App',
+      title: 'আমার হিসাব',
       theme: ThemeData(
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.green,
       ),
       home: HomeScreen(),
     );
@@ -22,10 +22,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tally App'),
+        title: Text('আমার হিসাব'),
       ),
       body: Center(
-        child: Text('Welcome to your Tally App!'),
+        child: Text('আপনার হিসাব শুরু করুন'),
       ),
     );
   }
