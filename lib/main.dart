@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'আমার হিসাব',
-      theme: ThemeData(primarySwatch: Colors.green),
+      theme: ThemeData(primarySwatch: Colors.indigo),
       home: HomeScreen(),
     );
   }
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('আমার হিসাব')),
-      body: Center(child: Text('আপনার হিসাব শুরু করুন')),
+      body: Center(child: Text('হিসাব লিখুন', style: TextStyle(fontSize: 20))),
     );
   }
 }
